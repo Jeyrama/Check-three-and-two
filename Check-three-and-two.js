@@ -7,3 +7,6 @@ Examples:
   ["a", "b", "c", "b", "c"] ==> false // 1x "a", 2x "b" and 2x "c"
   ["a", "a", "a", "a", "a"] ==> false // 5x "a"
 */
+
+
+// Solution

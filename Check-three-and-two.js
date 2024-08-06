@@ -21,3 +21,5 @@ function checkThreeAndTwo(array) {
   
   return hasTwo && hasThree;
 }
+
+// or

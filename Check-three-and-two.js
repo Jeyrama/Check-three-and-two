@@ -10,3 +10,14 @@ Examples:
 
 
 // Solution
+
+function checkThreeAndTwo(array) {
+  const map = {};
+  for (char of array) {
+    map[char] = map[char] + 1 || 1;
+  }
+  const hasTwo = Object.keys(map).some(key => map[key] == 2);
+  const hasThree = Object.keys(map).some(key => map[key] == 3);
+  
+  return hasTwo && hasThree;
+}
